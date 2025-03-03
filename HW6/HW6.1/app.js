@@ -9,4 +9,7 @@ function removeChars(str, charsToRemove) {
   // Приклад використання:
   const result = removeChars(" hello world", ['l', 'd']);
   console.log(result);  // "heo wor"
-  
+
+
+
+ 
