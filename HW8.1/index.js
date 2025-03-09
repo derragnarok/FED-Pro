@@ -8,11 +8,11 @@ let ladder = {
         this.step--;
         return this;// опускатиме вас на одну сходинку
     },
-    showStep: function () {
+    showStep: function () { // показує поточний крок
         alert( this.step );
         return this; // показує поточну сходинку
     }
   };
 
-  ladder.up(). up(). down(). showStep() ;// покаже 1 а потім 0
+  ladder.up(). up(). down(). showStep() ;// покаже 1 
   
