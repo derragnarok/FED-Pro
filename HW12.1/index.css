@@ -1,0 +1,11 @@
+.button_style
+ { 
+    padding: 10px 20px !important;
+    margin: 10px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+  }
