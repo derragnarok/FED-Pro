@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ValidationWithRegX</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>We would like to help you</h2>
+      <form id="contactForm" novalidate>
+        <input type="text" id="name" placeholder="Name" />
+        <div class="error" id="nameError"></div>
+
+        <textarea id="message" placeholder="Message"></textarea>
+        <div class="error" id="messageError"></div>
+
+        <label for="phone">How to answer you?</label>
+        <input type="text" id="phone" placeholder="Phone number" />
+        <div class="error" id="phoneError"></div>
+
+        <input type="text" id="email" placeholder="Email" />
+        <div class="error" id="emailError"></div>
+
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
