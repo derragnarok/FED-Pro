@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця Піфагора</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Таблиця Піфагора (10x10)</h1>
+    <div id="table-container"></div>
+
+    <script>
+        // Створення таблиці
+        function createPythagorasTable() {
+            const container = document.getElementById('table-container');
+            const table = document.createElement('table');
+
+            // Заповнюємо таблицю
+            for (let i = 1; i <= 10; i++) {
+                const row = document.createElement('tr');
+                
+                for (let j = 1; j <= 10; j++) {
+                    const cell = document.createElement('td');
+                    cell.textContent = i * j;  // Виведення добутку
+                    row.appendChild(cell);
+                }
+                
+                table.appendChild(row);
+            }
+
+            // Додаємо таблицю в контейнер
+            container.appendChild(table);
+        }
+
+        // Викликаємо функцію для створення таблиці
+        createPythagorasTable();
+    </script>
+
+</body>
+</html>

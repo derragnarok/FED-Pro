@@ -1,15 +1,15 @@
 //Завдання 7,1
 
 
-let totalSum = 0; // глобальна змінна для збереження суми
+let totalSumm = 0; // глобальна змінна для збереження суми
 
 function sum(value) {
-    totalSum += value;
-    return totalSum;
+    totalSumm += value;
+    return totalSumm;
 }
 
 // Приклад використання:
-console.log(sum(3)); // 3
-console.log(sum(8)); // 11
-console.log(sum(15)); // 26
-console.log(sum(20)); // 46
+console.log(sum(4)); // 4
+console.log(sum(6)); // 10
+console.log(sum(10)); // 16
+console.log(sum(7)); // 23
